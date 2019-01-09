@@ -33,5 +33,8 @@ void test_show_bytes(int val) {
 
 int main() {
     test_show_bytes(12345);
+
+    printf("\n\n");
+    show_bytes((byte_pointer) "12345", 6);
     return 0;
 }
